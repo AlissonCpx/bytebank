@@ -1,1 +1,6 @@
-<app-nota-transferencia></app-nota-transferencia>
+<app-nota-transferencia
+  (aoTransferir)="transferi($event)"
+></app-nota-transferencia>
+
+
+<app-extrato [transferencias]="transferencias"></app-extrato>
